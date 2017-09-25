@@ -103,8 +103,8 @@ public class Formulario extends javax.swing.JFrame {
       Float dato1,dato2;
       dato1=Float.valueOf(latitud.getText());
       dato2=Float.valueOf(longitud.getText());
-      dato1=miconexion.lat;
-      dato2=miconexion.lon;
+      miconexion.lat=dato1;
+      miconexion.lon=dato2;
       miconexion.conectar();
     }//GEN-LAST:event_guardarMouseClicked
 
